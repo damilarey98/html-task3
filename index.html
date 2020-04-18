@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Page</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+    <nav>
+        <ul class="menu">
+            <li><a href="#">Home</a></li>
+            <li class="active"><a href="#">Portfolio</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+    <div id="left-block">
+        <img src="image/picture.jpg" alt="sodiq">
+        <p>Slack ID <span>|</span> <span>damilarey98</span></p>
+        <p>Internship ID <span>|</span> <span>SNG-00276</span></p>
+    </div>
+    <div id="right-block">
+        <h4>Personal Details</h4>
+        <p>Full Name <span>|</span> <span>Sodiq Akintunde</span></p>
+        <p>Email Address <span>|</span>  <span>damilarey98@yahoo.com</span></p>
+        <p>Gender <span>|</span> <span>Male</span></p>
+        <p>Address <span>|</span> <span>11, Kolawole Shorungbe Street, Ajuwon-Alagbole, Ifako-Ijaiye LGA, Lagos State</span></p>
+        <p>Date of Birth <span>|</span> <span>15th May 1995</span></p>
+        <p>Place of Birth <span>|</span> <span>Ogun State</span></p>
+        <p>State of Origin <span>|</span> <span>Osun State</span></p>
+        <p>Home Town <span>|</span> <span>Ede North</span></p>
+        <p>Occupation <span>|</span> <span>Student</span></p>
+    </div>
+    <div class="clr"></div>
+    <div id="main-block">
+        <h3 class="move">About Me</h3>
+        <p class="rightside">Hey! I'm Sodiq. Coding has changed my world. It's not just about apps.
+            Learning to code gave me problem-solving skills and a way to communicate with others on a technical level. I am a graduate from department of Agricultural and Bioresources Engineering, Federal University of Agriculture, Abeokuta.
+            I also design Mechanical and Agricultural machines using Inventor. I enjoy reading manga, playing chess or scrabble at leisure. Likewise, travelling and learning new culture.
+        </p>
+    </div>
+    <div class="clr"></div>
+    <!-- My Skills section start -->
+    <div class="skill">
+        <h3 class="move">Skills</h3>
+        <ul class="rightside">
+            <li>Autodesk Inventor <br>
+                <progress min="0" max="100" value="80"></progress>
+            </li>
+            <li>Python <br>
+                <progress min="0" max="100" value="70"></progress>
+            </li>
+            <li>Illustrator <br>
+                <progress min="0" max="100" value="40"></progress>
+            </li>
+            <li>HTML <br>
+                <progress min="0" max="100" value="45"></progress>
+            </li>
+            
+        </ul>
+    </div>
+    <div class="clr"></div>
+    <div class="down">
+        <p>Get in touch</p>
+        <form class="my-form" action="/submit" method="post">
+            <div class="group">
+                <label for="contactName">Name<span>*</span></label>
+                <input type="text" value="" size="35" id="contactName" name="contactName" required>
+            </div>
+    
+            <div class="group">
+                <label for="contactEmail">Email<span>*</span></label>
+                <input type="text" value="" size="35" id="contactEmail" name="contactEmail" required>
+            </div>
+    
+            <div class="group">
+                <label for="contactMessage">Message<span>*</span></label>
+                <textarea cols="2" rows="2" id="contactMessage" name="contactMessage" required></textarea>
+            </div>
+    
+            <div>
+                <button class="submit">Submit</button>
+            </div>
+        </form>
+    </div>
+    <footer>
+        <p>copyright &copy; 2020 Start.Ng HTML Task</p>
+    </footer>
+    
+</body>
+</html>
+

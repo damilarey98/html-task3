@@ -1,0 +1,217 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+}
+body{
+    width: 80%;
+    height: 90%;
+    margin: auto;
+    background: rgb(0, 10, 10);
+    color: #fff;
+}
+
+.clr{
+    clear: both;
+}
+
+h3{
+    width: 20%;
+    float: left;
+    color: crimson;
+
+}
+
+.menu{
+    float: right;
+    list-style: none;
+    margin-top: 30px;
+}
+
+.menu li{
+    display: inline-block;
+}
+
+.menu li a{
+    text-decoration: none;
+    color: crimson ;
+    padding: 5px 10px;
+    font-size: 15px;
+    font-weight: 700;
+    
+}
+
+.menu li.active a{
+    color: #fff !important;
+}
+
+
+#left-block{
+    width: 30%;
+    float: left;
+}
+
+#left-block img{
+    width: 30% ;
+    width: 200px;
+    height: 200px;
+    margin-top: 80px;
+    padding-left: 10px;
+    border-radius: 6px;
+}
+
+#left-block p{
+    color: crimson;
+    font-size: 15px;
+    font-weight: 700;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+#left-block span{
+    color: #fff;
+    font-size: 13px;
+    font-weight: normal;
+}
+
+h4{
+    text-align: center;
+    color: crimson;
+}
+#right-block{
+    width: 70%;
+    float: right;
+    margin-top: 10px;
+}
+#right-block p{
+    color: crimson;
+    padding-top: 5px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+#right-block span{
+    color: #fff;
+    font-size: 13px;
+    font-weight: normal;
+    padding-left: 5px;
+}
+
+#main-block{
+    padding-top: 15px;
+    font-size: 15px;
+    padding-bottom: 8px;
+}
+
+.move {
+    width: 20%;
+    float: left;
+    margin-top: 20px;
+    padding-left: 30px;
+}
+
+.rightside{
+    width: 80%;
+    float: right;
+    margin-top: 20px;
+}
+
+li{
+    list-style: none;
+    padding: 10px;
+}
+
+progress{
+    height: 20px;
+    width: 80%;
+    background: brown;
+}
+.my-form{
+    padding: 20px;
+    width: 40%;
+    padding-left: 40px;
+}
+
+.my-form .group{
+    padding-bottom: 15px;
+}
+
+.group span{
+    color: red;
+}
+
+.my-form label{
+    display: block;
+}
+
+.my-form input[type="text"], .my-form textarea{
+    padding: 8px;
+    width: 100%;
+    border: none;
+    outline: none;
+    background: none;
+    color: #fff;
+    border-bottom: 3px solid crimson;
+}
+
+
+.my-form button{
+    background: #fff;
+    color: #000;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+button:hover{
+    background: red;
+    color: #fff;
+}
+
+.down p{
+    padding-top: 40px;
+    padding-bottom: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    border-bottom: 1px solid #fff;
+    color: crimson;
+    font-weight: 800;
+}
+
+footer{
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    border-top: 1px solid #fff;
+    margin-top: 40px;
+}
+
+@media(max-width:600px){
+    .menu{
+        float: none;
+    }
+    #left-block{
+        width: 100%;
+        float: none;
+    }
+    #right-block{
+        width: 100%;
+        float: none;
+    }
+    #left-block{
+        margin: auto;
+        transform: translate(25%, -15%);
+    }
+    .move{
+        width: 100%;
+        float: none;
+    }
+    .rightside{
+        width: 100%;
+        float: none;
+    }
+    .down{
+        float: none;
+        width: 100%;
+    }
+}
